@@ -1,0 +1,37 @@
+header{
+    z-index: 4;
+    padding: 0;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    color: white;
+    margin:0 auto;
+}
+header > nav {
+    background: #142123;
+
+}
+header>nav {
+    color:  white;
+}
+header>nav > ul{
+    padding: 15px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+}
+header>nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+}
+header>nav > ul > li > a{
+    color: white;
+    text-decoration-line: none;
+
+}
+.search-in-header{
+    margin:0 auto;
+    width: 100%;
+}

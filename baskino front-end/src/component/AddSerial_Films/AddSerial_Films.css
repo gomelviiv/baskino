@@ -1,0 +1,68 @@
+
+.AddSerial_Films{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(8, 12.5%);
+  justify-content: center;
+}
+
+.form-of-dispatch{
+  grid-column: 4/6;
+  grid-row: 3/6;
+  background: white;
+  border-radius: 10px 10px;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(6, 16.6%);
+}
+.name-form{
+  grid-column: 1fr;
+  grid-row: 1/3;
+}
+.name-ft{
+  grid-column: 1fr;
+  grid-row: 3/4;
+}
+.name-email{
+  grid-column: 1fr;
+  grid-row: 4/5;
+}
+.send{
+  margin-top: 30px;
+  grid-column: 1fr;
+  grid-row: 5/6;
+}
+.but{
+  margin: 0 20px;
+  border: 1px white solid;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: black;
+  padding: .7em 1.5em;
+  outline: none;
+}
+.but:hover {
+  background: white;
+  border: 1px black solid;
+  color: black;
+  }
+.but:active {   background: rgb(232,95,76);}
+.form-of-dispatch> div> input{
+  border-radius: 5px 5px;
+ font-size: 24px;
+ border: 10px solid rgba(255, 255, 255, .5);
+ box-shadow:
+ 0 2px 10px rgba(0, 0, 0, .25) inset,
+ 0 2px 10px rgba(0, 0, 0, .25);
+ border-radius: ;
+ background: rgba(255, 255, 255, .5);
+ appearance:none;
+ outline: none;
+ height: 25%;
+ color: black;
+ padding: 8px;
+ width: 80%;
+}

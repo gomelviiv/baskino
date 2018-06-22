@@ -1,0 +1,18 @@
+.BigSerialContent{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  height: 100vh;
+  grid-template-columns:repeat(8, 12.5%);
+  grid-template-rows: repeat(8, 12.5%);
+  justify-content: center;
+  z-index:7;
+}
+.header{
+    grid-column: 1/8;
+    grid-row: 1/2;
+}
+.main-content{
+  grid-column: 1/8;
+  grid-row:2/6;
+}

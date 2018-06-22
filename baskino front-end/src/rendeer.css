@@ -1,0 +1,23 @@
+.rendeer{
+
+  }
+  .wrapper{
+    display: grid;
+    height: 90%;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(8, 12.5%);
+    justify-content: center;
+  }
+  .header{
+      grid-column: 1/9;
+      grid-row: 1/2;
+  }
+  .contents{
+    grid-column: 1/9;
+    grid-row: 2/9;
+  }
+  .footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }

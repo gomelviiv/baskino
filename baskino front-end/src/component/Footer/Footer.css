@@ -1,0 +1,23 @@
+.footer-content>div a{
+   text-decoration: none;
+   color: white;
+   margin-left: 30px;
+   border: 1px white solid;
+   padding: 10px;
+   margin-top: 300px;
+ }
+.footer-content {
+  background: black;
+  color: white;
+  grid-column: 1/9;
+  grid-row: 8/9;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(4, 25%);
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.footer-content >div{
+  text-align: center;
+}

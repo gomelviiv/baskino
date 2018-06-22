@@ -1,0 +1,13 @@
+
+.RulesInSite-content{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(8, 12.5%);
+  justify-content: center;
+}
+
+.RulesInSite-content>div:nth-child(1){
+  grid-column: 3/7;
+  grid-row: 2/8;
+}

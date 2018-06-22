@@ -1,0 +1,22 @@
+{
+  "page":1,
+  "toptvshows_mainbackground": "https://image.tmdb.org/t/p/w500_and_h282_face/mmxxEpTqVdwBlu5Pii7tbedBkPC.jpg",
+  "toptvshows_namemain": "Flash",
+  "toptvshows_main_id": 60735,
+  "toptvshows_secondbackground": "https://image.tmdb.org/t/p/w250_and_h141_face/yp94aOXzuqcQHva90B3jxLfnOO9.jpg",
+  "toptvshows_namesecond": "World of the Wild West",
+  "toptvshows_second_id": 63247,
+  "toptvshows_thertbackground": "https://image.tmdb.org/t/p/w250_and_h141_face/f5uNbUC76oowt5mt5J9QlqrIYQ6.jpg",
+  "toptvshows_namethert": "The Simpsons",
+  "toptvshows_thert_id": 456,
+
+  "topfilms_mainbackground": "https://image.tmdb.org/t/p/w250_and_h141_face/wrqUiMXttHE4UBFMhLHlN601MZh.jpg",
+  "topfilms_namemain": "Rampage",
+  "topfilms_main_id": 427641,
+  "topfilms_secondbackground": "https://image.tmdb.org/t/p/w250_and_h141_face/roYyPiQDQKmIKUEhO912693tSja.jpg",
+  "topfilms_namesecond": "Quiet Place",
+  "topfilms_second_id": 447332,
+  "topfilms_thertbackground": "https://image.tmdb.org/t/p/w500_and_h282_face/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
+  "topfilms_namethert": "Avengers",
+  "topfilms_thert_id": 299536
+}

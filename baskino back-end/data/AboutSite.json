@@ -1,0 +1,35 @@
+{
+  "main_name": "Online cinema GV",
+  "main_text": "We are the largest online cinema in Belarus, operating on the market of legal professional video content. Our mission is to discover the world of cinema in all its diversity for people",
+  "result":
+  [
+    {
+      "other_information_h1": "Partners",
+      "other_information_text": "The catalogs of the leading Hollywood major studios and the latest film distribution are available for viewing as part of a monthly subscription to ivi or with payment for access to a particular film",
+      "other_information_img": [
+          {
+            "img_1": "https://st.tivision.ru/images/_main/page-about/partner-wb.png",
+            "img_2": "https://st.tivision.ru/images/_main/page-about/partner-paramount.png",
+            "img_3": "https://st.tivision.ru/images/_main/page-about/partner-20century.png",
+            "img_4": "https://st.tivision.ru/images/_main/page-about/partner-sony.png",
+            "img_5": "https://st.tivision.ru/images/_main/page-about/partner-universal.png",
+            "img_6": "https://st.tivision.ru/images/_main/page-about/partner-cinemood.png"
+          }
+      ]
+    },
+    {
+      "other_information_h1": "Advertising agencies",
+      "other_information_text": "To the main part of the catalog of films, cartoons and serials was free for viewers, we cooperate with our partners - advertising agencies",
+      "other_information_img": [
+          {
+            "img_1": "https://st.tivision.ru/images/_main/page-about/agency-groupm.png",
+            "img_2": "https://st.tivision.ru/images/_main/page-about/agency-adv.png",
+            "img_3": "https://st.tivision.ru/images/_main/page-about/agency-omd.png",
+            "img_4": "https://st.tivision.ru/images/_main/page-about/agency-dentsu-aegis-network.png",
+            "img_5": "https://st.tivision.ru/images/_main/page-about/agency-publicis.png",
+            "img_6": "https://st.tivision.ru/images/_main/page-about/agency-nectarin.png"
+          }
+      ]
+    }
+  ]
+}

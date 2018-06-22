@@ -1,0 +1,28 @@
+ .point-menu > li {
+    list-style-type: none;
+    /* border: 1px red solid; */
+    padding-top: 10px;
+    color: white;
+}
+.point-menu > li:hover{
+   width: 90%;
+    background: white;
+    color: black;
+}
+.point-menu > li:hover> a{
+    background: white;
+    color: black;
+}
+.point-menu > li > hr {
+    width: 90%;
+    margin: 10px 0;
+    border: 0.5px #8d8d8d solid;
+    background: #080808;
+    z-index: 4 ;
+}
+
+.point-menu > li  > a {
+    padding-left: 5px  ;
+    color: white;
+    text-decoration: none;
+  }

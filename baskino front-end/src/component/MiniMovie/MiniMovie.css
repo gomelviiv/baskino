@@ -1,0 +1,134 @@
+.mini-Movie{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 70px 115px 44px auto ;
+    justify-content: center;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 10px 10px;
+    box-shadow: 0.5px 0.5px  0.5px 0.5px #9c9c9c;
+}
+
+
+.mini-Movie-poster{
+  grid-column: 1/2;
+  grid-row: 1/5;
+  margin-left: 10px;
+}
+.mini-Movie-name{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: justify;
+}
+.mini-Movie-overview{
+  width: 95%;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 20px;
+}
+.mini-Movie-hr{
+  width: 90%;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.mini-Movie-Divbutton{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+
+.mini-Movie-button {
+
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(212,75,56);
+    padding: .7em 1.5em;
+    outline: none;
+    border: 1px rgb(212,75,56);
+}
+.mini-Movie-button:hover {
+    background: rgb(232,95,76);
+}
+
+.mini-Movie-button:active {
+    background: rgb(152,15,0);
+}
+/*
+.little-Movie-main-content{
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    max-width: 1030px;
+    background: #dadada;
+}
+
+.little-Movie-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    z-index: 1;
+}
+
+.little-Movie-margin{
+    margin: 0 15px;
+    margin-bottom: 20px;
+}
+
+.little-Movie{
+    border-radius: 7px;
+    display: flex;
+    width: 500px;
+    overflow: hidden;
+    background: #ffffff;
+    box-shadow: 0.5px 0.5px  0.5px 0.5px #9c9c9c;
+}
+
+.little-Movie-img {
+    width: 185px;
+    height: 278px;
+
+}
+.little-Movie-title {
+    width: 190px;
+    height: 30px;
+}
+.little-Movie-flex-content {
+    flex-direction: column;
+    margin: 10px;
+}
+.little-Movie-description {
+    width: 285px;
+    height: 110px;
+    line-height: 1.2;
+    text-align: justify;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.little-Movie-more-info-div {
+    margin-top: 20px;
+}
+.little-Movie-more-info {
+    margin-top: 40px;
+    margin-left: 10px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(212,75,56);
+    padding: .7em 1.5em;
+    outline: none;
+    border: 1px rgb(212,75,56);
+}
+.little-Movie-more-info:hover {
+    background: rgb(232,95,76);
+}
+
+.little-Movie-more-info:active {
+    background: rgb(152,15,0);
+} */

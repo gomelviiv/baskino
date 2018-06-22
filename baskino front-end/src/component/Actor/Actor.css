@@ -1,0 +1,27 @@
+.concrete-actor{
+    display: grid;
+    grid-template-columns: 22% 78%;
+    grid-template-rows: repeat(3, 33.3%);
+    justify-content: center;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 10px 10px;
+    box-shadow: 0.5px 0.5px  0.5px 0.5px #9c9c9c;
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+
+}
+.actor-img{
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+.actor-name{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 30px;
+}
+.actor-description{
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 20px;
+}

@@ -1,0 +1,41 @@
+.header-menu{
+  position: fixed;
+  display: grid;
+  width: 100%;
+  background: black;
+  grid-template-columns: repeat(10, 10%);
+  grid-template-rows: repeat(2, 50%;);
+  color:white;
+  z-index: 100;
+}
+.header-menu> div:nth-child(1){
+  grid-column: 3/9;
+  grid-row: 1/2;
+}
+.header-menu> div > nav {
+    background: black;
+
+}
+.header-menu> div>nav {
+    color:  white;
+}
+.header-menu> div>nav > ul{
+    padding: 15px 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+    text-align: center;
+}
+.header-menu> div>nav > ul > li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+}
+.header-menu> div>nav > ul > li > a{
+    color: white;
+    text-decoration-line: none;
+}
+.header-menu> div:nth-child(2){
+  grid-column: 2/10;
+  grid-row: 2/3;
+}

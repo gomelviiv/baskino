@@ -1,21 +1,25 @@
 {
   "name": "",
   "version": "",
-  "scripts":{
+  "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "mongoose": "^5.0.14",
-    "npm": "^5.8.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "mongoose": "^5.0.14",
+    "mongoose-regex-search": "^0.4.4",
+    "npm": "^5.8.0",
+    "password-hash": "^1.2.2",
+    "request": "^2.85.0"
   },
   "devDependencies": {
     "nodemon": "^1.17.3"
   },
-  "engines":{
+  "engines": {
     "node": ">=6.0.0"
   }
 }

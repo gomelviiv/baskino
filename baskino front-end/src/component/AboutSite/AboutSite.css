@@ -1,0 +1,52 @@
+.аboutSite-content{
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(8, 12.5%);
+  grid-template-rows: repeat(8, 12.5%);
+  justify-content: center;
+}
+
+.about{
+  grid-column: 2/9;
+  grid-row: 2/7;
+  display: grid;
+  grid-template-columns: repeat(6, 16.6%);
+  grid-template-rows: repeat(6, 16.6%);
+  justify-content: center;
+}
+.about-h1{
+  grid-column: 2/6;
+  grid-row: 1/2;
+  text-align: center;
+  font-size: 30px;
+}
+.about-text{
+  grid-column: 2/6;
+  grid-row: 2/3;
+  text-align: center;
+  font-size: 24px;
+}
+.about-partners-h1{
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto auto 10px 0;
+  grid-column: 2/6;
+  grid-row: 3/4;
+  text-align: left;
+}
+.about-partners-text{
+  grid-column: 2/6;
+  grid-row: 4/5;
+}
+.about-advertising-agencies-h1{
+  font-size: 20px;
+  font-weight: 600;
+  margin: auto auto 10px 0;
+  grid-column: 2/6;
+  grid-row: 5/6;
+  text-align: left;
+}
+.about-advertising-agencies-text{
+  grid-column: 2/6;
+  grid-row: 6/7;
+}

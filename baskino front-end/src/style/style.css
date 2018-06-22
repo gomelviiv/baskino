@@ -1,0 +1,77 @@
+body{
+    background: #dadada;
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------BIG FILM-----------------------------------*/
+.big-serial-main-content{
+    margin: 0 auto;
+    height: 550px;
+    width: 1900px;
+    background: no-repeat;
+    background-size: 100%;
+
+}
+.main-content-opacity{
+    position: absolute;
+    background: #080808;
+    width: 1900px;
+    height: 550px;
+    opacity:    0.7;
+}
+.big-serial-background{
+    position: absolute;
+    width: 1900px;
+
+}
+.big-serial {
+    position: relative;
+    top: 40px;
+    display: flex;
+    width: 900px;
+    height: 480px;
+    margin-left: 450px;
+    margin-top: 40px;
+    border-radius: 7px;
+    color: white;
+}
+
+.big-serial-poster {
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 370px;
+    height: 556px;
+}
+.big-serial-img{
+    border-radius: 7px 7px 7px 7px;
+    box-shadow: 1px 1px #707070;
+}
+
+
+.big-serial-title {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.big-serial-first-data {
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.big-serial-overview {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.big-serial-description{
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.2;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding: 5px;
+}

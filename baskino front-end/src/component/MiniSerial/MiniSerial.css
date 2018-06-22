@@ -1,0 +1,63 @@
+.mini-serial{
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 70px 115px 44px auto ;
+    justify-content: center;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 10px 10px;
+    box-shadow: 0.5px 0.5px  0.5px 0.5px #9c9c9c;
+}
+
+.mini-serial-poster{
+  grid-column: 1/2;
+  grid-row: 1/5;
+  margin-left: 10px;
+}
+.mini-serial-name{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: justify;
+  text-align: left;
+}
+.mini-serial-overview{
+  width: 95%;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-size: 20px;
+  text-align: left;
+}
+.mini-serial-hr{
+  width: 90%;
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+.mini-serial-Divbutton{
+  grid-column: 2/3;
+  grid-row: 4/5;
+}
+.mini-serial-Divbutton{
+  text-align: left;
+}
+.mini-serial-button {
+  width: 200px;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    user-select: none;
+    background: rgb(212,75,56);
+    padding: .7em 1.5em;
+    outline: none;
+    border: 1px rgb(212,75,56);
+}
+.mini-serial-button:hover {
+    background: rgb(232,95,76);
+}
+
+.mini-serial-button:active {
+    background: rgb(152,15,0);
+}
